@@ -1,0 +1,134 @@
+/* Style Guide */
+:root {
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #4d5ae5;
+  --bg-team-color: #f4f4fd;
+  --white-color: #ffffff;
+  --font-family-main: "Roboto";
+}
+/* Reset */
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Body */
+body {
+  color: var(--primary-color);
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  max-width: 1440px;
+}
+p {
+  color: var(--secondary-color);
+}
+.link {
+  color: var(--primary-color);
+}
+/* Header */
+.header {
+width: 1440px;
+height: 72px;
+display: flex;
+
+}
+.logo {
+  height: 24px;
+  margin-left: 156px;
+}
+.header-address {
+  display: flex;
+  margin-right: 156px;
+}
+.site-nav {
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  display: inline-flex;
+  justify-content:flex-start;
+  gap: 40px;
+  margin-left: 76px;
+}
+.address-list {
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  display: inline-flex;
+}
+/* Main */
+/* Hero */
+.hero {
+  background-color: var(--primary-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+.btn {
+  color: var(--white-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+/* Features */
+.features-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.features-text {
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/* What we are doing */
+.doing-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/* Our Team */
+.team {
+  background-color: var(--bg-team-color);
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.member-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.member-job {
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/* Footer */
+.footer {
+  background-color: var(--primary-color);
+}
+.footer-text {
+  color: var(--bg-team-color);
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
